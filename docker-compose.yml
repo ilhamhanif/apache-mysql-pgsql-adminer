@@ -17,14 +17,14 @@ services:
         restart: always
         environment:
             # Root username = root
-            MYSQL_ROOT_PASSWORD: yourpassword
+            MYSQL_ROOT_PASSWORD: punyahanif
 
     dbpg:
         image: postgres
         restart: always
         environment:
             # Root username = postgres
-            POSTGRES_PASSWORD: yourpassword
+            POSTGRES_PASSWORD: punyahanif
 
     phpmyadmin:
         image: phpmyadmin
